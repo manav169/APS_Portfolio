@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header" class="parallax">
+      <div class="container">
+        <nav>
+          <img
+            id="logo"
+            class="logo"
+            src="images/Aprum-logos_white.png"
+            alt=""
+          />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Sales And Marketing Specialist</p>
+          <h1>Hi, I'm <span>Aprum Pal Singh</span> <br />From Punjab</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Untitled.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Motivated and goal-oriented BE in Computer Engineering graduate,
+              passionate about Networking & Security, and Sales & Marketing.
+              Proactive professional with a strong foundation in web
+              development, networking, andsecurity, complemented by proficiency
+              in various programming languages. Possesses a keen eye for market
+              trends and strategic insights, demonstrated through hands-on
+              experience as a Sales and Marketing Specialist at DG Media
+              Solution. Skilled in conducting comprehensive market research,
+              initiating effective email marketing campaigns, and evaluating
+              marketing initiatives for optimization. Adept at fostering
+              cross-functional collaboration to ensure consistent brand identity
+              across all marketing efforts. Dedicated to continuous learning and
+              growth, with demonstrated proficiency in a diverse range of
+              technical skills including web development, programming, and
+              digital marketing. Eager to leverage expertise and drive to excel
+              in a dynamic professional environment.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                <strong>Skills</strong>
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Industry Knowledge</span><br />Web Development,
+                  Networking & Security, Sales & Marketing
+                </li>
+                <li>
+                  <span>Programming Knowledge</span><br />C, C++, Linux, Python,
+                  HTML, CSS, JavaScript
+                </li>
+                <li>
+                  <span>Additional Skills</span><br />Arduino, SQL, Photoshop,
+                  MS EXCEL, Data Entry, Sales Management, Project Management,
+                  Digital Marketing, Customer Success, Customer Experience,
+                  Customer Relations, Marketing Agencies, Teamwork, Problem
+                  Solving
+                </li>
+                <li>
+                  <span>Core CS Subjects</span><br />Networking & Security, Data
+                  Structure, Database Management System, Operating System
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>DG Media Solution (11/2023 - current)</span><br /><em
+                    >Sales And Marketing Specialist</em
+                  ><br />
+                  I have a responsible for Sales and Marketing Specialist
+                  strategies to promote the company’s products and services. To
+                  find new trends and opportunities, conduct market research.
+                  Establish and oversee email marketing campaigns to advertise
+                  the business's goods and services. Evaluate data to gauge the
+                  success of marketing initiatives and modify plans as
+                  necessary. Assist other departments in making sure that the
+                  company's brand identity is reflected in all marketing
+                  collateral.
+                </li>
+                <li>
+                  <span>TechMatrix Consulting (01/2023 - 05/2023)</span
+                  ><br /><em>Marketing Analyst</em><br />
+                  Conducted in-depth market analysis for the US & Singapore,
+                  identifying key sectors in health, education, retail, and
+                  finance. Established connections with decision-makers,
+                  presented Sales/Marketing pitches for CRM Solution selling.
+                  Successfully concluded deals/projects through strategic
+                  discussions.
+                </li>
+             </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span
+                    >THAPAR INSTITUTE OF ENGINEERING & TECHNOLOGY, PATIALA. BE
+                    COMPUTER ENGINEERING</span
+                  ><br />CGPA: 6.59 2020 - 2023
+                </li>
+                <li>
+                  <span
+                    >GOVERNMENT POLYTECHNIC COLLEGE JAMMU DIPLOMA COMPUTER
+                    SCIENCE</span
+                  ><br />Percentage: 60.31 2016 – 2020
+                </li>
+                <li>
+                  <span>ST. JOSEPH'S HIGHER SECONDARY SCHOOL BARAMULLA</span
+                  ><br />Percentage: 72.8 2015
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------My projects--------------------------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work">
+          <img src="images/work1.jpg" />
+        </div>
+        <div class="work">
+          <img src="images/work2.jpeg" />
+        </div>
+        <div class="work">
+          <img src="images/work3.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ***************contact********* -->
+    <br><a href="images/APRUM PAL SINGH_RESUME (1).pdf" download class="btn btn2">Download CV</a>
+    <br>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+             <h1 class="sub-title">Contact me</h1>
+             <p>contact@gmail.com</p>
+             <p>+91-9596827490</p>
+             
+          </div>
+
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <textarea name="Message" rows="6" placeholder="your Message"> </textarea>
+             
+              <button type="submit" class="btn btn2" >  Submit </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
