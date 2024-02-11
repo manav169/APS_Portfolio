@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aprum's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/5f24a68b41.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="header" class="parallax">
@@ -16,13 +17,15 @@
             src="images/Aprum-logos_white.png"
             alt=""
           />
-          <ul>
+          <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
           <p>Salesforce Executive Trainee</p>
@@ -168,7 +171,7 @@
 
     <!-- ***************contact********* -->
     <br>
-    <center><a href="images/APRUM PAL SINGH_RESUME (1).pdf" download class="btn btn2">Download CV</a></center>
+    <center><a href="images/APRUM PAL SINGH_RESUME (1).pdf" download class="btn btn2"><i class="fa-solid fa-cloud-arrow-down"></i>  Download CV </a></center>
     <br>
 
     <div id="contact">
@@ -176,8 +179,14 @@
         <div class="row">
           <div class="contact-left">
              <h1 class="sub-title">Contact me</h1>
-             <p>aprumbali1725@gmail.com</p>
-             <p>+91-9596827490</p>
+             <p><i class="fa-regular fa-envelope"></i> aprumbali1725@gmail.com</p>
+             <p><i class="fa-solid fa-phone"></i> +91-9596827490</p>
+             <p>
+              <a href="https://www.linkedin.com/in/aprum-pal-singh-775103172/"><i class="fa-brands fa-linkedin">  </i></a>
+              <a href=""><i class="fa-brands fa-square-github"></i></a>
+              <a href="https://www.instagram.com/__sardarsaab_/"><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+             </p>
              
           </div>
 
@@ -206,6 +215,17 @@
         }
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
       }
     </script>
   </body>
