@@ -158,20 +158,20 @@
       <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work">
-          <img src="images/work1.jpg" />
+          <img src="images/work1.jpg" alt="work img"/>
         </div>
         <div class="work">
-          <img src="images/work2.jpeg" />
+          <img src="images/work2.jpeg" alt="work img"/>
         </div>
         <div class="work">
-          <img src="images/work3.jpg" />
+          <img src="images/work3.jpg" alt="work img"/>
         </div>
       </div>
     </div>
 
     <!-- ***************contact********* -->
     <br>
-    <center><a href="images/APRUM PAL SINGH_RESUME (1).pdf" download class="btn btn2"><i class="fa-solid fa-cloud-arrow-down"></i>  Download CV </a></center>
+    <a href="images/APRUM PAL SINGH_RESUME (1).pdf" download class="btn btn2"><i class="fa-solid fa-cloud-arrow-down"></i>  Download CV </a></
     <br>
 
     <div id="contact">
@@ -207,10 +207,10 @@
       var tabcontents = document.getElementsByClassName("tab-contents");
 
       function opentab(tabname) {
-        for (tablink of tablinks) {
+        for (let tablink of tablinks) {
           tablink.classList.remove("active-link");
         }
-        for (tabcontent of tabcontents) {
+        for (let tabcontent of tabcontents) {
           tabcontent.classList.remove("active-tab");
         }
         event.currentTarget.classList.add("active-link");
