@@ -80,8 +80,16 @@ nav ul li a:hover::after{
 }
 
 /* -----------about----------------- */
+.info1{
+    margin-left: 20px;
+    text-align: justify;
+}
+
 .tab-links:hover{
-    background-color: #ababab;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
 }
 #about{
     padding: 80px 0;
@@ -171,13 +179,14 @@ nav ul li a:hover::after{
 .work img{
     width: 40%;
     border-radius: 10px;
+    margin: 10px;
 
 
 }
 .work img:hover{
-    transition: 1s;
+    transition: 0.6s;
     transform: translate(200px);
-    transform: scale(4);
+    transform: scale(1.1);
 }
 
 /* ------------contact------------ */
